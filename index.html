@@ -6,15 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Excellent Research</title>
-    <link rel="stylesheet" href="./bootstrap-5/css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="./bootstrap-5/css/bootstrap-grid.css"/>
+<link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="./css/defaults.css"/>
     <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="fontawesome-free-6.1.2-web/css/all.css"/>
-
+    <link rel="stylesheet" href="./css/mobile.css"/>
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="desktopview">
             <div class="logo">
                 <a href="">
                     <div class="circle"></div>
@@ -34,48 +35,62 @@
                 <a href="" class="btn1">hire us</a>
             </div>
         </nav>
+
+        <nav class="mobileview">
+            <div class="logo-actionbuttons">
+                <div class="logocircle">
+                  <a href="">
+                    <img src="./resources/Onstordlogo1.png" alt="" class="logomob"/>
+                  </a>
+                </div>
+                <div class="hamburgermenu" onclick="Addclass()">
+                  <div class="menu"></div></div>
+                </div>
+            </nav>
+            <div class="actionbuttons" onclick="Addclass()">
+                <ul>
+                  <li>
+                    <a href="Home"></a>
+                    <span class="desktopitemlink">Home</span>
+                  </li>
+                  <li>
+                    <a href="Home"></a>
+                    <span class="desktopitemlink">About us</span>
+                  </li>
+                  <li>
+                    <a href="Home"></a>
+                    <span class="desktopitemlink">Contact us</span>
+                  </li>
+                  </ul>
+              </div>
     </header>
 
-    <div class="hero-section">
+    <section class="hero-section">
         <h1>making research and analysing data for <br>
             users to get better result.</h1>
         <p>
-            Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit <br>
-            interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia <br>
+            Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+            interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia
             nostra, per inceptos himenaeos.
         </p>
 
         <p class="firstchild">Qorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum
             est a, mattis
-            tellus. Sed <br>
+            tellus. Sed
             dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.
-            Maecenas eget <br>
-            condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per <br>
+            Maecenas eget
+            condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per
             conubia nostra, per inceptos himenaelus.
         </p>
-        <button
-        <a href="" class="btn2">Sign Up</a>
-        </button>
-    </div>
+        
+    </section>
 
-    <div class="body-images">
-        <div class="left-img">
-            <img src="Ellipse 179.png" alt="" class="left">
-        </div>
+    <!-- <section class="body-images">
 
         <div class="middle-images">
-            
-            <div class="scnddot">
-                <h5></h5>
-            </div>
-
-            
-
             <div>
                 <img src="assets/img/Frame 3.png" alt="" class="img1">
             </div>
-            
-
 
             <div>
                 <img src="assets/img/adds.png" alt="" class="img2">
@@ -84,15 +99,10 @@
         </div>
 
 
-        <div class="right-img">
-            <img src="assets/img/Ellipse 178.png" alt="" class="right">
-        </div>
+    </section> -->
 
-
-    </div>
-
-    <div class="section1">
-        <h1>about</h1>
+    <div class="section1 every">
+        <h1>about us</h1>
         <div class="sub-section1">
             
             <div class="sub">
@@ -108,11 +118,9 @@
         </div>
     </div>
 
-    <div class="section2">
-        <img src="assets/img/assessories.png" alt="" class="items imgg">
-
+    <div class="section2 every">
         <div class="section2-middle">
-            <h1>Our Service</h1>
+            <h1>Our Services</h1>
             <p>we are research agencies that helps brand align, refie, and research <br>
                 their perfect product</p>
             <div class="center-img">
@@ -121,11 +129,10 @@
 
         </div>
 
-        <img src="assets/img/assessories.png" alt="" class="item imgg">
 
     </div>
 
-    <div class="section3">
+    <div class="section3 every">
         <div class="row justify-content-center flex-box">
             <div class="col-lg-3 col-md-6 flex-item">
                 <i class="fa-brands fa-facebook face icon"></i>
@@ -206,7 +213,7 @@
         </div>
         </div>
 
-    <div class="section4">
+    <section class="section4 every">
         
         <div class="img-flex">
             <img src="assets/img/assessories.png" alt="" class="img1">
@@ -258,42 +265,61 @@
                 </div>
                 </div>
                 <img src="assets/img/trielipse.png" alt="">
-            </div>
-
-
-    
-            
-        </div>
+            </div> 
+    </section>
         
-        <div class="section5">
+    <div class="section5 every">
         <div class="down">
             <h1>hire us for your research work today</h1>
             <p>start today,with basic or premium <br>
                 plan,you choose</p>
         </div>
         <div class="sub-section5">
-            <div class="images-left">
-                <div>
-                    <img src="assets/img/assessories (1).png" alt="">
-                </div>
-                <div>
-                    <img src="assets/img/assessories (2).png" alt="">
-                </div>
-            </div>
-            <div class="frames">
-                <div class="imgframe">
-                    <img src="assets/img/Frame 8.png" alt="">
-                </div>
-                <div class="imgframe">
-                    <img src="assets/img/Frame 9.png" alt="">
-                </div>
 
-            </div>
-
-            <div class="images-right">
-                <img src="assets/img/assessories (1).png" alt="">
-                <div><img src="assets/img/assessories (2).png" alt=""></div>
-            </div>
+                <div class="container">
+                    <div class="row sec5table">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="pricingTable">
+                                <div class="pricingTable-header">
+                                    <h3 class="title">Standard</h3>
+                                </div>
+                                <ul class="pricing-content">
+                                    <li>50GB Disk Space</li>
+                                    <li>50 Email Accounts</li>
+                                    <li>50GB Bandwidth</li>
+                                    <li class="disable">Maintenance</li>
+                                    <li class="disable">15 Subdomains</li>
+                                </ul>
+                                <div class="price-value">
+                                    <span class="amount">$9.99</span>
+                                </div>
+                                <div class="pricingTable-signup">
+                                    <a href="#">Sign Up</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="pricingTable green">
+                                <div class="pricingTable-header">
+                                    <h3 class="title">Business</h3>
+                                </div>
+                                <ul class="pricing-content">
+                                    <li>50GB Disk Space</li>
+                                    <li>50 Email Accounts</li>
+                                    <li>50GB Bandwidth</li>
+                                    <li>Maintenance</li>
+                                    <li class="disable">15 Subdomains</li>
+                                </ul>
+                                <div class="price-value">
+                                    <span class="amount">$19.99</span>
+                                </div>
+                                <div class="pricingTable-signup">
+                                    <a href="#">Sign Up</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             <div class="button">
                 <a href="" class="book">book us</a>
@@ -305,72 +331,66 @@
         </div>
     </div>
 
-    <div class="courses-section">
-
+    <section class="courses-section every">
         <div class="section6">
+
             <div class="sub-section6">
-                <img src="assets/img/trielipse.png" alt="">
                 <h1>we also offer courses based on our skillsets</h1>
                 <p>we are research agencies that helps brand align, refie, and research <br>
                     their perfect product</p>
             </div>
-            <div class="flex-box2">
-                <div class="flex-item1">
-                    <i class="fa-brands fa-facebook face icon"></i>
-                    <h1>article writing</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur <br>
-                        adipisicing elit. Suscipit numquam dolorem <br>
-                        ipsum, debitis perferendis illo! Aliquid quia <br>
-                        corporis, itaque distinctio quibusdam omnis, <br>
-                        quae ea deleniti temporibus expedita nisi, <br>
-                        vel esse!
 
-                    </p>
-                </div>
-                <div class="flex-item1">
-                    <i class="fa-brands fa-facebook face icon"></i>
-                    <h1>article writing</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur <br>
-                        adipisicing elit. Suscipit numquam dolorem <br>
-                        ipsum, debitis perferendis illo! Aliquid quia <br>
-                        corporis, itaque distinctio quibusdam omnis, <br>
-                        quae ea deleniti temporibus expedita nisi, <br>
-                        vel esse!
 
-                    </p>
-                </div>
-                <div class="flex-item1">
-                    <i class="fa-brands fa-facebook face icon"></i>
-                    <h1>article writing</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur <br>
-                        adipisicing elit. Suscipit numquam dolorem <br>
-                        ipsum, debitis perferendis illo! Aliquid quia <br>
-                        corporis, itaque distinctio quibusdam omnis, <br>
-                        quae ea deleniti temporibus expedita nisi, <br>
-                        vel esse!
-
-                    </p>
-                </div>
-            </div>
+                <div class="flexing-item2">
+                    <div class="row justify-content-center flex-box">
+                    <div class="col-lg-3 col-md-6 flex-item">
+                        <i class="fa-brands fa-facebook face icon"></i>
+                        <h1>article writing</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Suscipit numquam dolorem 
+                            corporis, itaque distinctio quibusdam omnis,
+                            quae ea deleniti temporibus expedita nisi,
+                            vel esse!
+        
+                        </p>
+        
+                    </div>
+                    <div class="col-lg-3 col-md-6 flex-item">
+                        <i class="fa-brands fa-facebook face icon"></i>
+                        <h1>article writing</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Suscipit numquam dolorem
+                            corporis, itaque distinctio quibusdam omnis,
+                            quae ea deleniti temporibus expedita nisi,
+                            vel esse!
+        
+                        </p>
+        
+                    </div>
+                    <div class="col-lg-3 col-md-6 flex-item">
+                        <i class="fa-brands fa-facebook face icon"></i>
+                        <h1>article writing</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Suscipit numquam dolorem
+                            ipsum, debitis perferendis illo! Aliquid quia <br>
+                            corporis, itaque distinctio quibusdam omnis,
+                            quae ea deleniti temporibus expedita nisi,
+                            vel esse!
+        
+                        </p>
+        
+                    </div>
+                    </div>
+                    </div>
         </div>
 
         <div class="bnt1">
             <a href="" class="btn">show more</a>
         </div>
 
-        <div>
-            <div class="courses">
-                <img src="assets/img/Ellipse 174.png" alt="">
-            </div>
-            <div class="next">
-                <img src="assets/img/Ellipse 174 (1).png" alt="">
-            </div>
+    </section>
 
-        </div>
-
-    </div>
-
-    <div class="footer">
+    <!-- <div class="footer">
         <div class="foot">
             <div class="h2-item">
                 <h2>we take in student both online and onsight, prices range from..</h2>
@@ -417,97 +437,338 @@
             <h2>lets connect</h2>
         </div>
 
-    </div>
+    </div> -->
 
-    <div class="downpart">
-        <div class="sub-down">
-            <div class="down-right-logo">
-                <img src="assets/img/Ellipse 39.png" alt="" class="logo-down">
-                <p>excellent research consult</p>
+
+    <!-- contact us starts here -->
+ <!-- connect section starts here -->
+ <section class="connect every" id="contact">
+    <h1>Let's connect !!</h1>
+    <div class="message-fast">
+      
+      <div class="container right-div">
+        <div class="row sec5table">
+            <div class="col-md-6 col-sm-12 sub_right-div">
+            <div class="messagetag">
+            <h3>Follow us on</h3>
+            <!-- <div class="shortline"></div> -->
+          </div>
+          <div class="social-links">
+            
+            <div class="lch">
+                <a class="link-icons" href="https://www.twitter.com/samoge_visuals" target="blank">
+                    <div class="linkscircle">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <h4 class="lchh1">twitter.com/samoge_visuals</h4>
+                </a>
             </div>
-            <div class="all-flex">
-                <div class="down-left">
-                    <div class="down-flex">
-                        <div class="down-item">
-                            <div class="number">
-                                <h3>follow us on</h3>
-                            </div>
-                            <div class="number1">
-                                <i class="fa-brands fa-facebook face iconz "></i>
-                                <a href="">daniel_osaze_23</a>
-                            </div>
-                            <div class="number1">
-                                <i class="fa-brands fa-facebook face  iconz "></i>
-                                <a href="">daniel_osaze_23</a>
-                            </div>
-                            <div class="number1">
-                                <i class="fa-brands fa-facebook face iconz  "></i>
-                                <a href="">daniel_osaze_23</a>
-                            </div>
-                        </div>
-                        <div class="down-item">
-                            <div class="number">
-                                <h3>contact us</h3>
-                            </div>
-                            <div class="number1">
-                                <i class="fa-brands fa-facebook face iconz "></i>
-                                <a href="">daniel_osaze_23</a>
-                            </div>
-                            <div class="number1">
-                                <i class="fa-brands fa-facebook face iconz  "></i>
-                                <a href="">daniel_osaze_23</a>
-                            </div>
-                            <div class="number1">
-                                <i class="fa-brands fa-facebook face  iconz "></i>
-                                <a href="">daniel_osaze_23</a>
-                            </div>
-                        </div>
-
+            <div class="lch">
+                <a class="link-icons" href="https://www.instagram.com/samogedesigns" target="blank">
+                    <div class="linkscircle">
+                        <i class="fa-brands fa-instagram"></i>
                     </div>
-                </div>
-
-                <div class="down-right">
-                    <div class="down-right-text">
-                        <h3>leave messages</h3>
-                    </div>
-                    <div class="form">
-                        <input type="Enter Your FullName" placeholder="Enter Your FullName" class="input">
-                    </div>
-                    <div>
-                        <input type="Enter Your FullName" placeholder="Enter Your FullName" class="input">
-                    </div>
-                    <textarea name="" id="" cols="30" rows="10" class="textarea"></textarea>
-                    <div class="button-down">
-                        <a href="" class="btn-down">send message</a>
-                    </div>
-                </div>
+                    <h4 class="lchh1">instagram.com/samoge</h4>
+                </a>
             </div>
-
-
-
-
-
+            <div class="lch">
+                <a class="link-icons" href="https://www.linkedin.com/in/samoge" target="blank">
+                    <div class="linkscircle">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <h4 class="lchh1">facebook.com/samogedesigns</h4>
+                </a>
+            </div>
+            
+          </div>
         </div>
+        <div class="col-md-6 col-sm-12 sub_right-div">
+          <div class="messagetag">
+            <h3>Contact us (United Kingdom)</h3>
+            <!-- <div class="shortline"></div> -->
+          </div>
+          <div class="social-links">
+            
+            <div class="lch">
+                <a class="link-icons" href="tel:+2347036096109" target="blank">
+                    <div class="linkscircle">
+
+                        <svg
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M22 12C22 10.6868 21.7413 9.38647 21.2388 8.1731C20.7362 6.95996 19.9997 5.85742 19.0711 4.92896C18.1425 4.00024 17.0401 3.26367 15.8268 2.76123C14.6136 2.25854 13.3132 2 12 2V4C13.0506 4 14.0909 4.20703 15.0615 4.60889C16.0321 5.01099 16.914 5.60034 17.6569 6.34326C18.3997 7.08594 18.989 7.96802 19.391 8.93848C19.7931 9.90918 20 10.9495 20 12H22Z"
+                        fill="currentColor"
+                      ></path>
+                      <path
+                        d="M2 10V5C2 4.44775 2.44772 4 3 4H8C8.55228 4 9 4.44775 9 5V9C9 9.55225 8.55228 10 8 10H6C6 14.4182 9.58173 18 14 18V16C14 15.4478 14.4477 15 15 15H19C19.5523 15 20 15.4478 20 16V21C20 21.5522 19.5523 22 19 22H14C7.37259 22 2 16.6274 2 10Z"
+                        fill="currentColor"
+                      ></path>
+                      <path
+                        d="M17.5433 9.70386C17.8448 10.4319 18 11.2122 18 12H16.2C16.2 11.4485 16.0914 10.9023 15.8803 10.3928C15.6692 9.88306 15.3599 9.42017 14.9698 9.03027C14.5798 8.64014 14.1169 8.33081 13.6073 8.11963C13.0977 7.90869 12.5515 7.80005 12 7.80005V6C12.7879 6 13.5681 6.15527 14.2961 6.45679C15.024 6.7583 15.6855 7.2002 16.2426 7.75732C16.7998 8.31445 17.2418 8.97583 17.5433 9.70386Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                    </div>
+                    <h4 class="lchh1">+44 (787) 871-0669</h4>
+                </a>
+            </div>
+            <div class="lch">
+                <a class="link-icons" href="mailto:samuelokwuchukwu4@gmail.com" target="blank">
+                    <div class="linkscircle">
+
+                        <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title></title>
+                    <path
+                      d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"
+                    ></path>
+                  </svg>
+                    </div>
+                    <h4 class="lchh1">samuelokwuchukwu4@gmail.com</h4>
+                </a>
+            </div>
+            <div class="lch">
+                <a class="link-icons" href="https://www.linkedin.com/in/samoge" target="blank">
+                    <div class="linkscircle">
+                        <i class="fal fa-map-marker-alt"></i>
+                    </div>
+                    <h4 class="lchh1">21 Frankly Beeches Road
+                    Birmingham, West Midlands, B31 5AB
+                United Kingdom</h4>
+                </a>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 sub_right-div">
+          <div class="messagetag">
+            <h3>Contact us (United Kingdom)</h3>
+            <!-- <div class="shortline"></div> -->
+          </div>
+          <div class="social-links">
+            
+            <div class="lch">
+                <a class="link-icons" href="tel:+2347036096109" target="blank">
+                    <div class="linkscircle">
+
+                        <svg
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M22 12C22 10.6868 21.7413 9.38647 21.2388 8.1731C20.7362 6.95996 19.9997 5.85742 19.0711 4.92896C18.1425 4.00024 17.0401 3.26367 15.8268 2.76123C14.6136 2.25854 13.3132 2 12 2V4C13.0506 4 14.0909 4.20703 15.0615 4.60889C16.0321 5.01099 16.914 5.60034 17.6569 6.34326C18.3997 7.08594 18.989 7.96802 19.391 8.93848C19.7931 9.90918 20 10.9495 20 12H22Z"
+                        fill="currentColor"
+                      ></path>
+                      <path
+                        d="M2 10V5C2 4.44775 2.44772 4 3 4H8C8.55228 4 9 4.44775 9 5V9C9 9.55225 8.55228 10 8 10H6C6 14.4182 9.58173 18 14 18V16C14 15.4478 14.4477 15 15 15H19C19.5523 15 20 15.4478 20 16V21C20 21.5522 19.5523 22 19 22H14C7.37259 22 2 16.6274 2 10Z"
+                        fill="currentColor"
+                      ></path>
+                      <path
+                        d="M17.5433 9.70386C17.8448 10.4319 18 11.2122 18 12H16.2C16.2 11.4485 16.0914 10.9023 15.8803 10.3928C15.6692 9.88306 15.3599 9.42017 14.9698 9.03027C14.5798 8.64014 14.1169 8.33081 13.6073 8.11963C13.0977 7.90869 12.5515 7.80005 12 7.80005V6C12.7879 6 13.5681 6.15527 14.2961 6.45679C15.024 6.7583 15.6855 7.2002 16.2426 7.75732C16.7998 8.31445 17.2418 8.97583 17.5433 9.70386Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                    </div>
+                    <h4 class="lchh1">+44 (787) 871-0669</h4>
+                </a>
+            </div>
+            <div class="lch">
+                <a class="link-icons" href="mailto:samuelokwuchukwu4@gmail.com" target="blank">
+                    <div class="linkscircle">
+
+                        <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title></title>
+                    <path
+                      d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"
+                    ></path>
+                  </svg>
+                    </div>
+                    <h4 class="lchh1">samuelokwuchukwu4@gmail.com</h4>
+                </a>
+            </div>
+            <div class="lch">
+                <a class="link-icons" href="https://www.linkedin.com/in/samoge" target="blank">
+                    <div class="linkscircle">
+                        <i class="fal fa-map-marker-alt"></i>
+                    </div>
+                    <h4 class="lchh1">21 Frankly Beeches Road
+                    Birmingham, West Midlands, B31 5AB
+                United Kingdom</h4>
+                </a>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 sub_right-div">
+          <div class="messagetag">
+            <h3>Contact us (Nigeria)</h3>
+            <!-- <div class="shortline"></div> -->
+          </div>
+          <div class="social-links">
+            
+            <div class="lch">
+                <a class="link-icons" href="tel:+2347036096109" target="blank">
+                    <div class="linkscircle">
+
+                        <svg
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M22 12C22 10.6868 21.7413 9.38647 21.2388 8.1731C20.7362 6.95996 19.9997 5.85742 19.0711 4.92896C18.1425 4.00024 17.0401 3.26367 15.8268 2.76123C14.6136 2.25854 13.3132 2 12 2V4C13.0506 4 14.0909 4.20703 15.0615 4.60889C16.0321 5.01099 16.914 5.60034 17.6569 6.34326C18.3997 7.08594 18.989 7.96802 19.391 8.93848C19.7931 9.90918 20 10.9495 20 12H22Z"
+                        fill="currentColor"
+                      ></path>
+                      <path
+                        d="M2 10V5C2 4.44775 2.44772 4 3 4H8C8.55228 4 9 4.44775 9 5V9C9 9.55225 8.55228 10 8 10H6C6 14.4182 9.58173 18 14 18V16C14 15.4478 14.4477 15 15 15H19C19.5523 15 20 15.4478 20 16V21C20 21.5522 19.5523 22 19 22H14C7.37259 22 2 16.6274 2 10Z"
+                        fill="currentColor"
+                      ></path>
+                      <path
+                        d="M17.5433 9.70386C17.8448 10.4319 18 11.2122 18 12H16.2C16.2 11.4485 16.0914 10.9023 15.8803 10.3928C15.6692 9.88306 15.3599 9.42017 14.9698 9.03027C14.5798 8.64014 14.1169 8.33081 13.6073 8.11963C13.0977 7.90869 12.5515 7.80005 12 7.80005V6C12.7879 6 13.5681 6.15527 14.2961 6.45679C15.024 6.7583 15.6855 7.2002 16.2426 7.75732C16.7998 8.31445 17.2418 8.97583 17.5433 9.70386Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                    </div>
+                    <h4 class="lchh1">+234 (907) 622-1266 </h4>
+                </a>
+            </div>
+            <div class="lch">
+                <a class="link-icons" href="mailto:samuelokwuchukwu4@gmail.com" target="blank">
+                    <div class="linkscircle">
+
+                        <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title></title>
+                    <path
+                      d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"
+                    ></path>
+                  </svg>
+                    </div>
+                    <h4 class="lchh1">samuelokwuchukwu4@gmail.com</h4>
+                </a>
+            </div>
+            <div class="lch">
+                <a class="link-icons" href="https://www.linkedin.com/in/samoge" target="blank">
+                    <div class="linkscircle">
+                        <i class="fal fa-map-marker-alt"></i>
+                    </div>
+                    <h4 class="lchh1">1, Cathedral Junction, Ondo Road, Akure, Nigeria</h4>
+                </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      </div>
+      
+      <div class="left-div">
+        <div class="messagetag">
+          <h3>Leave a message</h3>
+          <!-- <div class="shortline"></div> -->
+        </div>
+        <form
+          action="mailto:samuelokwuchukwu4@gmail.com"
+          method="post"
+          enctype="text/plain"
+          class="form"
+        >
+          <!-- <label for="fname">Fullname:</label> <br/> -->
+          <input type="fname" class="inputtext" value="" placeholder="Enter Fullname" /> <br />
+          <!-- <input type="email" value="" placeholder="Enter your email"> -->
+          <!-- <label for="">Email</label> <br/> -->
+          <input
+            type="email"
+            class="inputtext"
+            name="Enter your email"
+            id=""
+            placeholder="Enter your email"
+          />
+          <br />
+          <input
+            class="input-main"
+            type="text"
+            class="inputtext"
+            name=""
+            id=""
+            placeholder="Your message"
+          />
+          <br />
+          <button class="btn-main">SEND MESSAGE</button>
+        </form>
+      </div>
     </div>
+  </section>
+
+  <!-- connect section ends here -->
+
+  <!-- footer section starts here -->
+
+  <footer>
+    <div class="footer-contents">
+      <div class="footer-copyright">
+       <p>
+           &copy; 2023 Excellent Result Consult.  All right reserved.
+       </p>
+      </div>
+      
+      <ul>
+        <li>
+            <a href="">Terms And Conditions</a>
+        </li>
+        <li>
+            <a href="">Privacy Policy</a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+
+  <!-- footer section ends here -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <script src="./js/scrollreveal.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>

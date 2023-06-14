@@ -28,17 +28,19 @@ const Research = ({ open, onClose }) => {
                 <i className="fas fa-user-friends text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                Consultancy
+                Mentorship
               </h3>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                At Excellent Research Consult, we are your trusted partner in
-                consultancy services.
+              <p className="text-sm font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+                Excellent Research Consultancy offers expert mentorship services
+                to students, researchers, and professionals seeking academic and
+                professional success.
               </p>
-              <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-                With a wealth of experience and a team of highly skilled
-                professionals, we provide exceptional consulting solutions to
-                meet your unique needs. We are dedicated to empowering
-                researchers and facilitating their success.
+              <p className="text-sm font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
+                We provide personalized guidance tailored to your specific
+                needs. Our support covers research guidance, manuscript
+                preparation, career development, and skill enhancement. Our
+                mentors work closely with you to define achievable objectives
+                and develop a roadmap towards success.
               </p>
               <a href="https://wa.link/lrz2cv" target="blank">
                 <button className="bg-[#ef9220] text-white p-3 rounded hover:bg-white hover:text-[#ef9220] border border-[#ef9220] transition duration-300">
@@ -58,7 +60,9 @@ const Research = ({ open, onClose }) => {
                     Excellent Research Consult
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
-                  Our commitment to excellence, integrity, and client satisfaction sets us apart as a trusted partner for all your research needs.
+                    Our commitment to excellence, integrity, and client
+                    satisfaction sets us apart as a trusted partner for all your
+                    research needs.
                   </p>
                 </blockquote>
               </div>

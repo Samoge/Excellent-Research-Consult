@@ -7,6 +7,7 @@ import {
   AiOutlineTwitter,
 } from "react-icons/ai";
 import { FaFacebookF } from "react-icons/fa";
+import Link from "next/link";
 
 const Nav = () => {
   const [nav, setNav] = useState(false);
@@ -56,8 +57,8 @@ const Nav = () => {
             <a href="#About">
               <li className="ml-10 text-xl hover:text-[#ff9900]">About us</li>
             </a>
-            <a
-              href=""
+            <Link
+              href="#service"
               // id="dropdownNavbara" data-dropdown-toggle="dropdownNavbar"
               className="group inline-block"
             >
@@ -85,22 +86,6 @@ const Nav = () => {
                       href="#service"
                       className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
                     >
-                      Research/ Data Analysis Training
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#service"
-                      className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
-                    >
-                      Article Writing
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#service"
-                      className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
-                    >
                       Proposal/ Thesis
                     </a>
                   </li>
@@ -113,14 +98,7 @@ const Nav = () => {
                     </a>
                   </li>
                 </ul>
-                <div className="py-1">
-                  <a
-                    href="#service"
-                    className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
-                  >
-                    Mentorship
-                  </a>
-                </div>
+
                 <div className="py-1">
                   <a
                     href="#service"
@@ -129,10 +107,18 @@ const Nav = () => {
                     Paraphrasing/ Plagiarism Check
                   </a>
                 </div>
+                <div className="py-1">
+                  <a
+                    href="#service"
+                    className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                  >
+                    Mentorship
+                  </a>
+                </div>
               </div>
-            </a>
+            </Link>
 
-            <a href="/" className="group inline-block">
+            <Link href="/" className="group inline-block">
               <li className="ml-10 text-xl flex items-center justify-center hover:text-[#ff9900]">
                 Organisation
                 <span>
@@ -154,7 +140,7 @@ const Nav = () => {
                 <ul className="py-1" aria-labelledby="dropdownLargeButton">
                   <li>
                     <a
-                      href="#"
+                      href="#service"
                       className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
                     >
                       Feasibility Studies
@@ -162,7 +148,7 @@ const Nav = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="#service"
                       className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
                     >
                       Market Survey
@@ -170,7 +156,7 @@ const Nav = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="#service"
                       className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
                     >
                       Product Research
@@ -178,7 +164,7 @@ const Nav = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="#service"
                       className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
                     >
                       Data Collection
@@ -188,14 +174,14 @@ const Nav = () => {
 
                 <div className="py-1">
                   <a
-                    href="#"
+                    href="#service"
                     className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
                   >
                     Consultancy
                   </a>
                 </div>
               </div>
-            </a>
+            </Link>
           </ul>
 
           <div onClick={handleNav} className="md:hidden">
@@ -249,12 +235,12 @@ const Nav = () => {
                 <a href="#app">About Us</a>
               </li>
 
-                <li className="text-sm items-center pt-6 justify-center hover:text-[#ff9900]">
-              <a
-                href=""
-                // id="dropdownNavbara" data-dropdown-toggle="dropdownNavbar"
-                className="group flex items-center"
-              >
+              <li className="text-sm items-center pt-6 justify-center hover:text-[#ff9900]">
+                <Link
+                  href="#service"
+                  // id="dropdownNavbara" data-dropdown-toggle="dropdownNavbar"
+                  className="group flex items-center"
+                >
                   Students
                   <span>
                     <svg
@@ -265,71 +251,59 @@ const Nav = () => {
                       <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                     </svg>
                   </span>
-                <div
-                  id="dropdownNavbar"
-                  className="border transform scale-0 group-hover:scale-100 absolute
+                  <div
+                    id="dropdownNavbar"
+                    className="border transform scale-0 group-hover:scale-100 absolute
                   transition duration-150 ease-in-out origin-top min-w-32
                  bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow ml-12 mt-4 w-44"
+                  >
+                    <ul className="py-1" aria-labelledby="dropdownLargeButton">
+                      <li>
+                        <a
+                          href="#service"
+                          onClick={handleNav}
+                          className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                        >
+                          Proposal/ Thesis
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#service"
+                          onClick={handleNav}
+                          className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                        >
+                          Data Collection/ Data Entry
+                        </a>
+                      </li>
+                    </ul>
+                    <div className="py-1">
+                      <a
+                        href="#service"
+                        onClick={handleNav}
+                        className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                      >
+                        Paraphrasing/ Plagiarism Check
+                      </a>
+                    </div>
+                    <div className="py-1">
+                      <a
+                        href="#service"
+                        onClick={handleNav}
+                        className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                      >
+                        Mentorship
+                      </a>
+                    </div>
+                  </div>
+                </Link>
+              </li>
+              <li className="text-sm py-6 items-center justify-center hover:text-[#ff9900]">
+                <Link
+                  href="#service"
+                  // id="dropdownNavbara" data-dropdown-toggle="dropdownNavbar"
+                  className="group flex items-center"
                 >
-                  <ul className="py-1" aria-labelledby="dropdownLargeButton">
-                    <li>
-                      <a
-                        href="#service"
-                        className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
-                      >
-                        Research/ Data Analysis Training
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#service"
-                        className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
-                      >
-                        Article Writing
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#service"
-                        className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
-                      >
-                        Proposal/ Thesis
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#service"
-                        className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
-                      >
-                        Data Collection/ Data Entry
-                      </a>
-                    </li>
-                  </ul>
-                  <div className="py-1">
-                    <a
-                      href="#service"
-                      className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
-                    >
-                      Mentorship
-                    </a>
-                  </div>
-                  <div className="py-1">
-                    <a
-                      href="#service"
-                      className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
-                    >
-                      Paraphrasing/ Plagiarism Check
-                    </a>
-                  </div>
-                </div>
-              </a>
-                </li>
-                <li className="text-sm py-6 items-center justify-center hover:text-[#ff9900]">
-              <a
-                href=""
-                // id="dropdownNavbara" data-dropdown-toggle="dropdownNavbar"
-                className="group flex items-center"
-              >
                   Organisation
                   <span>
                     <svg
@@ -340,65 +314,62 @@ const Nav = () => {
                       <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                     </svg>
                   </span>
-                <div
-                  id="dropdownNavbar"
-                  className="border transform scale-0 group-hover:scale-100 absolute
+                  <div
+                    id="dropdownNavbar"
+                    className="border transform scale-0 group-hover:scale-100 absolute
                   transition duration-150 ease-in-out min-w-32
                  bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow ml-12 w-44"
-                >
-                  <ul className="py-1" aria-labelledby="dropdownLargeButton">
-                    <li>
+                  >
+                    <ul className="py-1" aria-labelledby="dropdownLargeButton">
+                      <li>
+                        <a
+                          href="#service"
+                          onClick={handleNav}
+                          className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                        >
+                          Feasibility Studies
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#service"
+                          onClick={handleNav}
+                          className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                        >
+                          Market Survey
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#service"
+                          onClick={handleNav}
+                          className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                        >
+                          Product Research
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#service"
+                          onClick={handleNav}
+                          className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                        >
+                          Data Collection
+                        </a>
+                      </li>
+                    </ul>
+                    <div className="py-1">
                       <a
                         href="#service"
+                        onClick={handleNav}
                         className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
                       >
-                        Research/ Data Analysis Training
+                        Consultancy
                       </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#service"
-                        className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
-                      >
-                        Article Writing
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#service"
-                        className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
-                      >
-                        Proposal/ Thesis
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#service"
-                        className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
-                      >
-                        Data Collection/ Data Entry
-                      </a>
-                    </li>
-                  </ul>
-                  <div className="py-1">
-                    <a
-                      href="#service"
-                      className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
-                    >
-                      Mentorship
-                    </a>
+                    </div>
                   </div>
-                  <div className="py-1">
-                    <a
-                      href="#service"
-                      className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
-                    >
-                      Paraphrasing/ Plagiarism Check
-                    </a>
-                  </div>
-                </div>
-              </a>
-                </li>
+                </Link>
+              </li>
 
               <li onClick={handleNav} className="text-sm py-4">
                 <a href="#about">Contacts</a>

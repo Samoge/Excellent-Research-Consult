@@ -42,7 +42,7 @@ const Services = () => {
 
             <div className="w-full md:w-6/12 px-4">
               <div className="flex flex-wrap">
-                <div className="w-full md:w-6/12 px-4">
+                <div className="w-full md:w-6/12 px-2">
                   <div className="relative flex flex-col mt-4 lg:mt-0">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
@@ -159,6 +159,42 @@ const Services = () => {
                       />
                     </div>
                   </div>
+                  <div className="relative flex flex-col min-w-0">
+                    <div className="px-4 py-5 flex-auto">
+                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                        <i className="fas fa-drafting-compass"></i>
+                      </div>
+                      <h6 className="text-xl mb-1 font-semibold">Mentorship</h6>
+                      <p className="mb-4 text-sm">
+                        Excellent Research Consultancy offers expert mentorship
+                        services to students, researchers, and professionals
+                        seeking academic and professional success.
+                      </p>
+                      <button
+                        onClick={() => setOpenResearch(true)}
+                        className="text-indigo-500 flex items-center hover:text-indigo-600"
+                        href="/"
+                      >
+                        More Details
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="h-5 w-5"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                      </button>
+                      <Research
+                        open={openResearch}
+                        onClose={() => setOpenResearch(false)}
+                      />
+                    </div>
+                  </div>
                 </div>
                 <div className="w-full md:w-6/12 px-4">
                   <div className="relative flex flex-col min-w-0 mt-4 lg:mt-0">
@@ -167,7 +203,7 @@ const Services = () => {
                         <i className="fas fa-newspaper"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        Data Research/Data Analysis
+                        Data Research/Analysis
                       </h6>
                       <p className="mb-4 text-sm">
                         At Excellent Research Consultancy, we offer
@@ -241,7 +277,12 @@ const Services = () => {
                       <p className="mb-4 text-sm">
                         At Excellent Research Consult, we understand the
                         importance of thorough planning and analysis before
-                        embarking on any project. 
+                        embarking on any project. That's why we specialize in
+                        conducting feasibility studies that serves as a crucial
+                        foundation for success. We analyze the viability,
+                        profitability and sustainability of your proposed
+                        ventures, helping you make informed decisions and
+                        mitigate risks.
                       </p>
                       <button
                         onClick={() => setOpenFs(true)}

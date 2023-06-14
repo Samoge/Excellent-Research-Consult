@@ -1,0 +1,182 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.back {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+:root {
+  --gradient: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+@font-face {
+  font-family: "Sina";
+  src: url("Sina/SinaNovaReg-webfont.woff") format("woff");
+  src: url("Sina/SinaNovaReg-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Eurocine";
+  src: url("Eurocine/Web/eurocine_regular_macroman/eurocine-regular-webfont.woff")
+    format("woff");
+  src: url("Eurocine/Web/eurocine_regular_macroman/eurocine-regular-webfont.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "alex";
+  src: url("alex-brush/AlexBrush-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Sofia";
+  src: url("Sofia/Web/sofiapro_light_macroman/sofiapro-light-webfont.woff")
+    format("woff");
+  src: url("Sofia/Web/sofiapro_light_macroman/sofiapro-light-webfont.woff2")
+    format("woff2");
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-300px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* #660C22 - Brown; */
+/* #ef9220 - Yellow */
+/* #3b5998 - Blue */
+/* #ca3919 - Orange */
+
+.iraq {
+  font-family: "Sofia";
+}
+
+.sina {
+  font-family: "Sina";
+}
+
+.title {
+  animation-name: slideInLeft;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.gra {
+  color: var(--gradient);
+}
+
+.subcribe {
+  /* transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s; */
+  /* transition: transform 0.3s ease 0s, background-color 0.3s, color 0.3s; */
+  transition: all 0.3s;
+}
+
+.subcribe:hover {
+  transform: translateY(-10px);
+}
+
+
+.contact {
+  background: url("https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+}
+
+.trans {
+  transform: translateZ(0px);
+}
+
+.hero {
+  background: url("https://i.pinimg.com/564x/9d/56/df/9d56df8d791fed02bc64596581ca47f3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: red; */
+}
+
+.st0 {
+  fill: #fff;
+}
+.st1 {
+  fill: #b5dfea;
+}
+.st2 {
+  opacity: 0.55;
+  fill: #90cedd;
+}
+.st3 {
+  fill: #d7f0f9;
+}
+.st4 {
+  fill: #0582c1;
+}
+.st5 {
+  fill: #79c9e8;
+}
+.st6 {
+  fill: #ffbf4d;
+}
+.st7 {
+  fill: #00668e;
+}
+.st8 {
+  fill: #05556d;
+}
+.st9 {
+  fill: #ca3919;
+}
+.st10 {
+  fill: #ca3919;
+}
+.st11 {
+  fill: none;
+}
+.st12 {
+  fill: #ca3919;
+}
+.st13 {
+  opacity: 0.29;
+  fill: #ca3919;
+}
+.st14 {
+  fill: #49b4d6;
+}
+.st15 {
+  fill: #ca3919;
+}
+.st16 {
+  fill: #ca3919;
+}
+.st17 {
+  opacity: 0.55;
+  fill: url(#SVGID_1_);
+}
+
+/* html, body, heading, h1 ... */
+@layer base {
+  body {
+    @apply bg-[#ecf0f3];
+  }
+
+  header {
+    @apply fixed top-0 z-50 flex w-full items-center justify-between px-4 py-4 transition-all lg:px-10 lg:py-6 text-[#f75c];
+  }
+}
+
+/* custom classNames */
+@layer components {
+}

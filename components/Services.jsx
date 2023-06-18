@@ -5,6 +5,8 @@ import Proposal from "./modal/Proposal";
 import Da from "./modal/Da";
 import Aw from "./modal/Aw";
 import Fs from "./modal/Fs";
+import Cn from "./modal/Cn";
+import Pp from "./modal/Pp";
 
 const Services = () => {
   const [openCollection, setOpenCollection] = useState(false);
@@ -13,6 +15,8 @@ const Services = () => {
   const [openDa, setOpenDa] = useState(false);
   const [openAw, setOpenAw] = useState(false);
   const [openFs, setOpenFs] = useState(false);
+  const [openCn, setOpenCn] = useState(false);
+  const [openPp, setOpenPp] = useState(false);
 
   return (
     <div className="lg:min-h-screen bg-gray-200" id="service">
@@ -122,20 +126,22 @@ const Services = () => {
                       />
                     </div>
                   </div>
+
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-drafting-compass"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        Consultancy
+                        Paraphrasing/Plagiarism Check
                       </h6>
                       <p className="mb-4 text-sm">
-                        At Excellent Research Consult, we are your trusted
-                        partner in consultancy services.
+                        One of the key services we offer is
+                        paraphrasing/plagiarism check, ensuring that your work
+                        is original and well- crafted.
                       </p>
                       <button
-                        onClick={() => setOpenResearch(true)}
+                        onClick={() => setOpenPp(true)}
                         className="text-indigo-500 flex items-center hover:text-indigo-600"
                         href="/"
                       >
@@ -153,12 +159,13 @@ const Services = () => {
                           />
                         </svg>
                       </button>
-                      <Research
-                        open={openResearch}
-                        onClose={() => setOpenResearch(false)}
+                      <Pp
+                        open={openPp}
+                        onClose={() => setOpenPp(false)}
                       />
                     </div>
                   </div>
+
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
@@ -196,19 +203,19 @@ const Services = () => {
                     </div>
                   </div>
                 </div>
-                <div className="w-full md:w-6/12 px-4">
+                <div className="w-full md:w-6/12 px-2">
                   <div className="relative flex flex-col min-w-0 mt-4 lg:mt-0">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-newspaper"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        Data Research/Analysis
+                        Feasibility Studies
                       </h6>
                       <p className="mb-4 text-sm">
-                        At Excellent Research Consultancy, we offer
-                        comprehensive research and data analysis solutions
-                        tailored to your specific needs.
+                        At Excellent Research Consult, we understand the
+                        importance of thorough planning and analysis before
+                        embarking on any project.
                       </p>
                       <button
                         onClick={() => setOpenDa(true)}
@@ -238,11 +245,11 @@ const Services = () => {
                         <i className="fas fa-file-alt"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        Article Writing
+                        Market Survey
                       </h6>
                       <p className="mb-4 text-sm">
-                        Excellent Research Consult is a premier platform for top
-                        quality writing services.
+                        We conduct Market research to identify industry trends,
+                        competitive landscapes and consumer behavior patterns.
                       </p>
                       <button
                         onClick={() => setOpenAw(true)}
@@ -272,17 +279,13 @@ const Services = () => {
                         <i className="fas fa-file-alt"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        Feasibility Studies
+                        Product Research
                       </h6>
                       <p className="mb-4 text-sm">
-                        At Excellent Research Consult, we understand the
-                        importance of thorough planning and analysis before
-                        embarking on any project. That's why we specialize in
-                        conducting feasibility studies that serves as a crucial
-                        foundation for success. We analyze the viability,
-                        profitability and sustainability of your proposed
-                        ventures, helping you make informed decisions and
-                        mitigate risks.
+                        Through thorough market and competitor analysis, as well
+                        as consumer insights, we uncover valuable information
+                        about target audiences, industry trends and market
+                        opportunities.
                       </p>
                       <button
                         onClick={() => setOpenFs(true)}
@@ -304,6 +307,40 @@ const Services = () => {
                         </svg>
                       </button>
                       <Fs open={openFs} onClose={() => setOpenFs(false)} />
+                    </div>
+                  </div>
+                  <div className="relative flex flex-col min-w-0">
+                    <div className="px-4 py-5 flex-auto">
+                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                        <i className="fas fa-drafting-compass"></i>
+                      </div>
+                      <h6 className="text-xl mb-1 font-semibold">
+                        Consultancy
+                      </h6>
+                      <p className="mb-4 text-sm">
+                        At Excellent Research Consult, we are your trusted
+                        partner in consultancy services.
+                      </p>
+                      <button
+                        onClick={() => setOpenCn(true)}
+                        className="text-indigo-500 flex items-center hover:text-indigo-600"
+                        href="/"
+                      >
+                        More Details
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="h-5 w-5"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                      </button>
+                      <Cn open={openCn} onClose={() => setOpenCn(false)} />
                     </div>
                   </div>
                 </div>

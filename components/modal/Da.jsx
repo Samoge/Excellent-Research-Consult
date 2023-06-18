@@ -14,7 +14,7 @@ const Da = ({ open, onClose }) => {
         }}
         className=" bg-gray-100 flex items-center w-[85%] py-6 mx-auto rounded-lg"
       >
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 ">
           <div className="flex flex-wrap">
             <div className="w-full md:w-4/12 px-4 text-center">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-1 shadow-lg rounded-lg">
@@ -28,13 +28,18 @@ const Da = ({ open, onClose }) => {
                 <i className="fas fa-user-friends text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-              Data Research/Data Analysis
+                Feasibility Studies
               </h3>
               <p className="text-sm font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-              At Excellent Research Consultancy, we offer comprehensive research and data analysis solutions tailored to your specific needs.
+                At Excellent Research Consult, we understand the importance of
+                thorough planning and analysis before embarking on any project.
               </p>
               <p className="text-sm font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-             Our experienced team provides services such as research design and planning, data collection and management, statistical analysis, data visualization, and report writing. With expertise across various industries, we ensure accurate and high-quality results delivered on time. Your data and research are treated with the utmost confidentiality, and our customized approach guarantees solutions that align with your goals.
+                That's why we specialize in conducting feasibility studies that
+                serves as a crucial foundation for success. We analyze the
+                viability, profitability and sustainability of your proposed
+                ventures, helping you make informed decisions and mitigate
+                risks.
               </p>
               <a href="https://wa.link/lrz2cv" target="blank">
                 <button className="bg-[#ef9220] text-white p-3 rounded hover:bg-white hover:text-[#ef9220] border border-[#ef9220] transition duration-300">
@@ -54,7 +59,8 @@ const Da = ({ open, onClose }) => {
                     Excellent Research Consult
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
-                  Our mission is to help you expand frontiers through research and discovery.
+                    Our mission is to help you expand frontiers through research
+                    and discovery.
                   </p>
                 </blockquote>
               </div>

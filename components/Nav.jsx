@@ -97,6 +97,14 @@ const Nav = () => {
                       Data Collection/ Data Entry
                     </a>
                   </li>
+                  <li>
+                    <a
+                      href="#service"
+                      className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                    >
+                      Transcription
+                    </a>
+                  </li>
                 </ul>
 
                 <div className="py-1">
@@ -118,7 +126,7 @@ const Nav = () => {
               </div>
             </Link>
 
-            <Link href="/" className="group inline-block">
+            <Link href="#service" className="group inline-block">
               <li className="ml-10 text-xl flex items-center justify-center hover:text-[#ff9900]">
                 Organisation
                 <span>
@@ -229,10 +237,10 @@ const Nav = () => {
           <div className="py-4 flex flex-col">
             <ul className="md:flex uppercase">
               <li onClick={handleNav} className="text-sm py-6">
-                <a href="#app">Home</a>
+                <a href="/">Home</a>
               </li>
               <li onClick={handleNav} className="text-sm">
-                <a href="#app">About Us</a>
+                <a href="#About">About Us</a>
               </li>
 
               <li className="text-sm items-center pt-6 justify-center hover:text-[#ff9900]">
@@ -274,6 +282,15 @@ const Nav = () => {
                           className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
                         >
                           Data Collection/ Data Entry
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#service"
+                          onClick={handleNav}
+                          className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                        >
+                          Transcription
                         </a>
                       </li>
                     </ul>

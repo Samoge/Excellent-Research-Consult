@@ -28,19 +28,15 @@ const Aw = ({ open, onClose }) => {
                 <i className="fas fa-user-friends text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                Article Writing
+              Market Survey
               </h3>
               <p className="text-sm font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                Excellent Research Consult is a premier platform for top quality
-                writing services. With a team of certified expert writers, we
-                offer customized and well researched articles that meet your
-                specific needs.
+We conduct Market research  to identify industry trends, competitive landscapes and consumer behavior patterns. 
+
+
               </p>
               <p className="text-sm font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-                Our writers conduct thorough research, ensuring accuracy and
-                credibility. We prioritize impeccable quality through meticulous
-                editing and proof reading. Timely delivery and confidentiality
-                are guaranteed.
+              Our analysts gather and analyze relevant data, including market size, growth rates and segmentation to provide clients with comprehensive understanding  of their target markets.
               </p>
               <a href="https://wa.link/lrz2cv" target="blank">
                 <button className="bg-[#ef9220] text-white p-3 rounded hover:bg-white hover:text-[#ef9220] border border-[#ef9220] transition duration-300">

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Fs = ({ open, onClose }) => {
+const Pp = ({ open, onClose }) => {
   if (!open) return null;
 
   return (
@@ -28,18 +28,18 @@ const Fs = ({ open, onClose }) => {
                 <i className="fas fa-user-friends text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                Product Research
+              Paraphrasing/Plagiarism Check
               </h3>
               <p className="text-sm font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                Through thorough market and competitor analysis, as well as
-                consumer insights, we uncover valuable information about target
-                audiences, industry trends and market opportunities.
+              
+
+One of the key services we offer is paraphrasing/plagiarism check, ensuring that your work is original and well- crafted.
+We pay attention to detail, making sure that every sentence is carefully rewritten to maintain clarity and coherence while eliminating any concerns of plagiarisms.
               </p>
               <p className="text-sm font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-                With a focus on delivering accurate and timely results,
-                Excellent Research Consult, empowers businesses to develop
-                tailored products and strategies that meet customer demands and
-                drive success in a competitive market.
+              
+
+Upon completion, we provide you with a detailed report that highlights any potential areas of concern, such as phrases that may need further modification or citations that could be added to strengthen your work's credibility. We believe in maintaining open lines of communication with our clients, and our dedicated support team is always available to address any questions or concerns you may have throughout the process.
               </p>
               <a href="https://wa.link/lrz2cv" target="blank">
                 <button className="bg-[#ef9220] text-white p-3 rounded hover:bg-white hover:text-[#ef9220] border border-[#ef9220] transition duration-300">
@@ -59,8 +59,9 @@ const Fs = ({ open, onClose }) => {
                     Excellent Research Consult
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
-                    Our mission is to help you expand frontiers through research
-                    and discovery.
+                    Our commitment to excellence, integrity, and client
+                    satisfaction sets us apart as a trusted partner for all your
+                    research needs.
                   </p>
                 </blockquote>
               </div>
@@ -72,4 +73,4 @@ const Fs = ({ open, onClose }) => {
   );
 };
 
-export default Fs;
+export default Pp;

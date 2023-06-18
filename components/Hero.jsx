@@ -18,15 +18,19 @@ const Hero = () => {
 
           <div className="mt-5 mb-10 lg:mb-0">
             <a href="https://wa.link/lrz2cv" target="blank">
-              <button type="submit"
-                className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white hover:text-[#ff9900] transition duration-200 rounded shadow-md bg-[#ff9900] hover:bg-white focus:shadow-outline focus:outline-none border border-[#ff9900] subcribe">
+              <button
+                type="submit"
+                className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white hover:text-[#ff9900] transition duration-200 rounded shadow-md bg-[#ff9900] hover:bg-white focus:shadow-outline focus:outline-none border border-[#ff9900] subcribe"
+              >
                 Get Started
               </button>
             </a>
 
             <a href="#About">
-              <button type="submit"
-                className="inline-flex mx-2 items-center justify-center h-12 px-6 font-medium tracking-wide text-white hover:text-[#ff9900] transition duration-200 rounded shadow-md bg-[#ff9900] hover:bg-white focus:shadow-outline focus:outline-none border border-[#ff9900]">
+              <button
+                type="submit"
+                className="inline-flex mx-2 items-center justify-center h-12 px-6 font-medium tracking-wide text-white hover:text-[#ff9900] transition duration-200 rounded shadow-md bg-[#ff9900] hover:bg-white focus:shadow-outline focus:outline-none border border-[#ff9900]"
+              >
                 Show Me More
               </button>
             </a>

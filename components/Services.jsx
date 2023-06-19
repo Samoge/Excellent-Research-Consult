@@ -7,6 +7,7 @@ import Aw from "./modal/Aw";
 import Fs from "./modal/Fs";
 import Cn from "./modal/Cn";
 import Pp from "./modal/Pp";
+import Tr from "./modal/Tr";
 
 const Services = () => {
   const [openCollection, setOpenCollection] = useState(false);
@@ -17,6 +18,7 @@ const Services = () => {
   const [openFs, setOpenFs] = useState(false);
   const [openCn, setOpenCn] = useState(false);
   const [openPp, setOpenPp] = useState(false);
+  const [openTr, setOpenTr] = useState(false);
 
   return (
     <div className="lg:min-h-screen bg-gray-200" id="service">
@@ -159,10 +161,41 @@ const Services = () => {
                           />
                         </svg>
                       </button>
-                      <Pp
-                        open={openPp}
-                        onClose={() => setOpenPp(false)}
-                      />
+                      <Pp open={openPp} onClose={() => setOpenPp(false)} />
+                    </div>
+                  </div>
+                  <div className="relative flex flex-col min-w-0">
+                    <div className="px-4 py-5 flex-auto">
+                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                        <i className="fas fa-drafting-compass"></i>
+                      </div>
+                      <h6 className="text-xl mb-1 font-semibold">
+                        Transcription
+                      </h6>
+                      <p className="mb-4 text-sm">
+                        We transform your audio and video content into accurate,
+                        well structured wriiten documents.
+                      </p>
+                      <button
+                        onClick={() => setOpenTr(true)}
+                        className="text-indigo-500 flex items-center hover:text-indigo-600"
+                        href="/"
+                      >
+                        More Details
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="h-5 w-5"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                      </button>
+                      <Tr open={openTr} onClose={() => setOpenTr(false)} />
                     </div>
                   </div>
 

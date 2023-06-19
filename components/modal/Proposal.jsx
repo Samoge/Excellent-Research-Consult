@@ -12,9 +12,9 @@ const Proposal = ({ open, onClose }) => {
         onClick={(e) => {
           e.stopPropagation();
         }}
-        className=" bg-gray-100 flex items-center w-[85%] mt-20 md:mt-0 py-12 mx-auto rounded-lg"
+        className=" bg-gray-100 flex items-center w-[85%] mt-20 md:mt-0 py-6 md:py-12 mx-auto rounded-lg"
       >
-        <div className="container mx-auto px-4 overflow-y-auto">
+        <div className="container mx-auto px-1 md:px-4">
           <div className="flex flex-wrap">
             <div className="w-full md:w-4/12 px-4 text-center">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-1 shadow-lg rounded-lg">
@@ -24,9 +24,6 @@ const Proposal = ({ open, onClose }) => {
           </div>
           <div className="flex flex-wrap items-center">
             <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-              <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                <i className="fas fa-user-friends text-xl"></i>
-              </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
                 Proposal/Thesis
               </h3>
@@ -43,11 +40,11 @@ const Proposal = ({ open, onClose }) => {
                 to excellence, Excellent Research Consult empowers researchers
                 to succeed in their academic and professional endeavours.
               </p>
-              <button className="bg-[#ef9220] text-white p-3 rounded hover:bg-white hover:text-[#ef9220] border border-[#ef9220] transition duration-300">
+              <button className="bg-[#ef9220] text-white p-1 md:p-3 rounded hover:bg-white hover:text-[#ef9220] border border-[#ef9220] transition duration-300">
                 Hire Us Now!
               </button>
             </div>
-            <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
+            <div className="hidden md:flex w-full md:w-4/12 px-4 mr-auto ml-auto">
               <div className="relative flex flex-col min-w-0 break-words w-full mb-2 shadow-lg rounded-lg bg-pink-500">
                 <img
                   alt="..."

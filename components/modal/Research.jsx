@@ -24,9 +24,6 @@ const Research = ({ open, onClose }) => {
           </div>
           <div className="flex flex-wrap items-center">
             <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-              <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                <i className="fas fa-user-friends text-xl"></i>
-              </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
                 Mentorship
               </h3>
@@ -43,12 +40,12 @@ const Research = ({ open, onClose }) => {
                 and develop a roadmap towards success.
               </p>
               <a href="https://wa.link/lrz2cv" target="blank">
-                <button className="bg-[#ef9220] text-white p-3 rounded hover:bg-white hover:text-[#ef9220] border border-[#ef9220] transition duration-300">
+                <button className="bg-[#ef9220] text-white p-1 md:p-3 rounded hover:bg-white hover:text-[#ef9220] border border-[#ef9220] transition duration-300">
                   Hire Us Now!
                 </button>
               </a>
             </div>
-            <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
+            <div className="hidden md:flex w-full md:w-4/12 px-4 mr-auto ml-auto">
               <div className="relative flex flex-col min-w-0 break-words w-full mb-2 shadow-lg rounded-lg bg-pink-500">
                 <img
                   alt="..."

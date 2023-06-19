@@ -20,7 +20,7 @@ const Hero = () => {
             <a href="https://wa.link/lrz2cv" target="blank">
               <button
                 type="submit"
-                className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white hover:text-[#ff9900] transition duration-200 rounded shadow-md bg-[#ff9900] hover:bg-white focus:shadow-outline focus:outline-none border border-[#ff9900] subcribe"
+                className="inline-flex items-center justify-center h-10 md:h-12 px-3 md:px-6 font-medium tracking-wide text-white hover:text-[#ff9900] transition duration-200 rounded shadow-md bg-[#ff9900] hover:bg-white focus:shadow-outline focus:outline-none border border-[#ff9900] subcribe"
               >
                 Get Started
               </button>
@@ -29,7 +29,7 @@ const Hero = () => {
             <a href="#About">
               <button
                 type="submit"
-                className="inline-flex mx-2 items-center justify-center h-12 px-6 font-medium tracking-wide text-white hover:text-[#ff9900] transition duration-200 rounded shadow-md bg-[#ff9900] hover:bg-white focus:shadow-outline focus:outline-none border border-[#ff9900]"
+                className="inline-flex mx-2 items-center justify-center h-10 md:h-12 px-3 md:px-6 font-medium tracking-wide text-white hover:text-[#ff9900] transition duration-200 rounded shadow-md bg-[#ff9900] hover:bg-white focus:shadow-outline focus:outline-none border border-[#ff9900]"
               >
                 Show Me More
               </button>

@@ -120,7 +120,7 @@ function Footer() {
                     </p>
                     <p className="mt-2 text-base leading-6 text-center text-gray-100">
                         <a href="https://samoge-dev.netlify.app/">
-                            Developed by SamOge Visuals
+                            Developed by Harwo/SamOge
                         </a>
                     </p>
                 </div>

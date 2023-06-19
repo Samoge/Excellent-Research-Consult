@@ -51,9 +51,6 @@ const Services = () => {
                 <div className="w-full md:w-6/12 px-2">
                   <div className="relative flex flex-col mt-4 lg:mt-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-sitemap"></i>
-                      </div>
                       <h6 className="text-xl mb-1 font-semibold">
                         {" "}
                         Data Collection/Data Entry
@@ -90,9 +87,6 @@ const Services = () => {
                   </div>
                   <div className="relative flex flex-col mt-4 lg:mt-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-sitemap"></i>
-                      </div>
                       <h6 className="text-xl mb-1 font-semibold">
                         {" "}
                         Proposal/Thesis
@@ -131,9 +125,6 @@ const Services = () => {
 
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-drafting-compass"></i>
-                      </div>
                       <h6 className="text-xl mb-1 font-semibold">
                         Paraphrasing/Plagiarism Check
                       </h6>
@@ -166,9 +157,6 @@ const Services = () => {
                   </div>
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-drafting-compass"></i>
-                      </div>
                       <h6 className="text-xl mb-1 font-semibold">
                         Transcription
                       </h6>
@@ -201,9 +189,6 @@ const Services = () => {
 
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-drafting-compass"></i>
-                      </div>
                       <h6 className="text-xl mb-1 font-semibold">Mentorship</h6>
                       <p className="mb-4 text-sm">
                         Excellent Research Consultancy offers expert mentorship
@@ -239,9 +224,6 @@ const Services = () => {
                 <div className="w-full md:w-6/12 px-2">
                   <div className="relative flex flex-col min-w-0 mt-4 lg:mt-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-newspaper"></i>
-                      </div>
                       <h6 className="text-xl mb-1 font-semibold">
                         Feasibility Studies
                       </h6>
@@ -274,9 +256,6 @@ const Services = () => {
                   </div>
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-file-alt"></i>
-                      </div>
                       <h6 className="text-xl mb-1 font-semibold">
                         Market Survey
                       </h6>
@@ -308,9 +287,6 @@ const Services = () => {
                   </div>
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-file-alt"></i>
-                      </div>
                       <h6 className="text-xl mb-1 font-semibold">
                         Product Research
                       </h6>
@@ -344,9 +320,6 @@ const Services = () => {
                   </div>
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-drafting-compass"></i>
-                      </div>
                       <h6 className="text-xl mb-1 font-semibold">
                         Consultancy
                       </h6>

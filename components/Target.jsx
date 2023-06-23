@@ -15,21 +15,19 @@ function Target() {
                     <div className="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">
                         <img
                             alt="Man"
-                            src="https://images.unsplash.com/photo-1625019030820-e4ed970a6c95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                            src="https://scontent.flos5-3.fna.fbcdn.net/v/t1.6435-9/80686688_575104706646079_333704910061174784_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=a26aad&_nc_eui2=AeFQGUKPRPKkL1t8HJmN1Vs_wMkhp7_4M5jAySGnv_gzmKIzRjHPINO8Y_-yfjXCgIPDFe5uMdjcq98mbZjTxYfR&_nc_ohc=DmHnH_ORnOEAX-Xgz81&_nc_ht=scontent.flos5-3.fna&oh=00_AfCA1NFi3XJndNG0qBHg_GSFaaxMSwKLlvJ5bVwjrfv9Jg&oe=64BCCCE2"
                             className="aspect-square w-full rounded-lg object-cover"
                         />
 
                         <blockquote className="sm:col-span-2">
                             <p className="text-sm font-medium sm:text-xl">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                                perspiciatis cumque neque ut nobis excepturi, quasi iure quisquam
-                                autem alias.
+                             Imagine having to face other areas of life simultaneuosly with your research works and having no worries at the same time all because a team of expert are ready for nothing than excellence
                             </p>
 
                             <cite className="mt-8 inline-flex items-center not-italic">
                                 <span className="hidden h-px w-6 bg-gray-400 sm:inline-block"></span>
                                 <p className="text-sm uppercase text-gray-500 sm:ms-3">
-                                    <strong>Justin Harrison</strong>, Beatle Inc.
+                                    <strong>O. O Samuel</strong>, SamOge Visuals.
                                 </p>
                             </cite>
                         </blockquote>

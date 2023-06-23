@@ -125,7 +125,7 @@ const Services = () => {
 
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <h6 className="text-xl mb-1 font-semibold">
+                      <h6 className="text-md md:text-xl mb-1 font-semibold">
                         Paraphrasing/Plagiarism Check
                       </h6>
                       <p className="mb-4 text-sm">

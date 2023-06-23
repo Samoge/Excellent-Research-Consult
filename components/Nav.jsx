@@ -389,7 +389,7 @@ const Nav = () => {
               </li>
 
               <li onClick={handleNav} className="text-sm py-4">
-                <a href="#about">Contacts</a>
+                <a href="#Contact">Contacts</a>
               </li>
             </ul>
 

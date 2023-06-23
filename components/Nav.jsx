@@ -6,7 +6,8 @@ import {
   AiFillInstagram,
   AiOutlineTwitter,
 } from "react-icons/ai";
-import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import { BiLogoLinkedin } from "react-icons/bi";
 import Link from "next/link";
 
 const Nav = () => {
@@ -395,19 +396,30 @@ const Nav = () => {
 
             <div className="pt-32">
               <p className="uppercase text-[#ca3919]">Connect with Us</p>
-              <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+              <div className="flex items-center my-4 w-full sm:w-[80%]">
+                <a
+                  className="rounded-full shadow-lg shadow-gray-400 mr-4 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                  href="https://www.facebook.com/profile.php?id=100091323455487&mibextid=ZbWKwL"
+                  target="blank"
+                >
                   <FaFacebookF />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                </a>
+
+                <a
+                  href="https://instagram.com/excellent.research.consult?igshid=MzNlNGNkZWQ4Mg=="
+                  target="blank"
+                  className="rounded-full shadow-lg shadow-gray-400 p-3 mr-4 cursor-pointer hover:scale-105 ease-in duration-300"
+                >
                   <AiFillInstagram />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiOutlineTwitter />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  {/* <Faaedin /> */}
-                </div>
+                </a>
+              
+               
+
+                  <a href="https://www.linkedin.com/company/excellent-research-consult/" target="blank"  className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+
+                <FaLinkedinIn />
+                  </a>
+            
               </div>
             </div>
           </div>

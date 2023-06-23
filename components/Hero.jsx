@@ -6,9 +6,9 @@ const Hero = () => {
       <div className="back bg-auto h-full bg-no-repeat bg-center">
         <div className="px-8 pt-[150px] pb-[20px] container mx-auto">
           <h2 className="text-left text-4xl lg:text-6xl text-white sina">
-            Making Research and <br />
-            Analysing Data for <br />
-            Users to Get Better Result.
+            Conducting Research and <br />
+            Analyzing Data for <br />
+            Users to Get Excellent Results.
           </h2>
           <p className="lg:text-2xl text-xl font-thin my-6 lg:my-10">
             Your Premier destination for exceptional research services,

@@ -5,13 +5,13 @@ const Hero = () => {
     <div className="w-full lg:h-screen hero text-white">
       <div className="back bg-auto h-full bg-no-repeat bg-center">
         <div className="px-8 pt-[150px] pb-[20px] container mx-auto">
-          <h2 className="text-left text-4xl lg:text-6xl text-white sina">
+          <h2 className="text-left text-4xl lg:text-6xl text-white leading-12">
             Conducting Research and <br />
             Analyzing Data for <br />
             Users to Get Excellent Results.
           </h2>
           <p className="lg:text-2xl text-xl font-thin my-6 lg:my-10">
-            Your Premier destination for exceptional research services,
+            Your Premier destination for exceptional research services, <br />
             comprehensive data analysis training and insightful market survey
             and analysis.
           </p>

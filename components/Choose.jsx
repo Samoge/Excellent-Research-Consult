@@ -9,8 +9,8 @@ const Choose = () => {
     return (
         <div className="py-5 flex-col justify-center items-center w-full bg-[#4244451f]">
             <div className="grid justify-items-center items-center">
-                <h1 className='text-center text-2xl lg:text-5xl lg:pt-20 pt-5 sina font-semibold'>Our Previous Work</h1>
-                <p className='lg:w-[250px] w-[150px] h-[3px] bg-[#ff9900] mx-auto'></p>
+                <h1 className='text-center text-2xl lg:text-3xl lg:pt-15 pt-5 font-semibold'>Our Previous Work</h1>
+                <p className='lg:w-[150px] w-[120px] h-[3px] bg-[#ff9900] mx-auto'></p>
             </div>
 
             <Swiper

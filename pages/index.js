@@ -7,7 +7,6 @@ import Services from "@/components/Services";
 import Choose from "@/components/Choose";
 import Contact from "@/components/Contact";
 import Goal from "@/components/Goal";
-import Mission from "@/components/Mission";
 import Target from "@/components/Target";
 import Footer from "@/components/Footer";
 

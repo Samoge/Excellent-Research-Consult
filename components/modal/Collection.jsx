@@ -40,9 +40,12 @@ const Proposal = ({ open, onClose }) => {
                 cost-effective pricing models. Clients can expect personalized
                 assistance in unlocking the full potential of their data.
               </p>
-              <button className="bg-[#ef9220] text-white p-1 md:p-3 rounded hover:bg-white hover:text-[#ef9220] border border-[#ef9220] transition duration-300">
-                Hire Us Now!
-              </button>
+
+              <a href="https://wa.link/h5kvif" target="blank">
+                <button className="bg-[#ef9220] text-white p-1 md:p-3 rounded hover:bg-white hover:text-[#ef9220] border border-[#ef9220] transition duration-300">
+                  Hire Us Now!
+                </button>
+              </a>
             </div>
             <div className="hidden md:flex w-full md:w-4/12 px-4 mr-auto ml-auto">
               <div className="relative flex flex-col min-w-0 break-words w-full mb-2 shadow-lg rounded-lg bg-pink-500">

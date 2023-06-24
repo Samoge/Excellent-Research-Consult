@@ -17,7 +17,7 @@ const Hero = () => {
           </p>
 
           <div className="mt-5 mb-10 lg:mb-0">
-            <a href="https://wa.link/lrz2cv" target="blank">
+            <a href="https://wa.link/h5kvif" target="blank">
               <button
                 type="submit"
                 className="inline-flex items-center justify-center h-10 md:h-12 px-3 md:px-6 font-medium tracking-wide text-white hover:text-[#ff9900] transition duration-200 rounded shadow-md bg-[#ff9900] hover:bg-white focus:shadow-outline focus:outline-none border border-[#ff9900] subcribe"

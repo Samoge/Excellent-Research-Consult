@@ -39,7 +39,7 @@ const Da = ({ open, onClose }) => {
                 ventures, helping you make informed decisions and mitigate
                 risks.
               </p>
-              <a href="https://wa.link/lrz2cv" target="blank">
+              <a href="https://wa.link/h5kvif" target="blank">
                 <button className="bg-[#ef9220] text-white p-3 rounded hover:bg-white hover:text-[#ef9220] border border-[#ef9220] transition duration-300">
                   Hire Us Now!
                 </button>

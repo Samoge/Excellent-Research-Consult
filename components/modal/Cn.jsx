@@ -37,7 +37,7 @@ const Cn = ({ open, onClose }) => {
                 meet your unique needs. We are dedicated to empowering
                 researchers and facilitating their success.
               </p>
-              <a href="https://wa.link/lrz2cv" target="blank">
+              <a href="https://wa.link/h5kvif" target="blank">
                 <button className="bg-[#ef9220] text-white p-3 rounded hover:bg-white hover:text-[#ef9220] border border-[#ef9220] transition duration-300">
                   Hire Us Now!
                 </button>

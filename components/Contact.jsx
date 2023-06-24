@@ -21,7 +21,10 @@ function Contact() {
                 </p>
 
                 <button className="px-8 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-[#ff9900] rounded-md hover:bg-blue-400">
+                    <a href="https://wa.link/h5kvif" target="blank">
                   get in touch
+
+                    </a>
                 </button>
 
                 <div className="mt-6 md:mt-8">

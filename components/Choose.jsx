@@ -7,7 +7,7 @@ import 'swiper/css/navigation';
 
 const Choose = () => {
     return (
-        <div className="py-5 flex-col justify-center items-center w-full bg-[#4244451f]">
+        <div className="py-5 flex-col justify-center items-center w-full bg-[#fff]">
             <div className="grid justify-items-center items-center">
                 <h1 className='text-center text-2xl lg:text-3xl lg:pt-15 pt-5 font-semibold'>Our Previous Work</h1>
                 <p className='lg:w-[150px] w-[120px] h-[3px] bg-[#ff9900] mx-auto'></p>
@@ -23,13 +23,13 @@ const Choose = () => {
                 className="mySwiper mt-8"
             >
                 <SwiperSlide>
-                    <img src="books.jpg" alt="" className="text-center md:w-[70%] mx-auto md:h-[80vh]" />
+                    <img src="bookss.jpeg" alt="" className="text-center md:w-[70%] mx-auto md:h-[80vh]" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="books.jpg" alt="" className="text-center md:w-[70%] mx-auto md:h-[80vh]" />
+                    <img src="books.jpeg" alt="" className="text-center md:w-[70%] mx-auto md:h-[80vh]" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="books.jpg" alt="" className="text-center md:w-[70%] mx-auto md:h-[80vh]" />
+                    <img src="wsss.jpeg" alt="" className="text-center md:w-[70%] mx-auto md:h-[80vh]" />
                 </SwiperSlide>
             </Swiper>
         </div>

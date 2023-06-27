@@ -3,9 +3,9 @@ import React from "react";
 
 function Target() {
   return (
-    <div className="lg:min-h-[80vh] flex items-center hero">
+    <div className="py-5 lg:min-h-[80vh] flex items-center hero">
       <div className="mx-auto max-w-5xl px-4">
-        <p className="text-center text-white text-xl lg:text-3xl font-semibold">
+        <p className="lg:pt-15 pt-5 text-center text-white text-xl lg:text-3xl font-semibold">
           You can’t do without Us
         </p>
         <p className="lg:w-[150px] w-[120px] h-[3px] bg-[#ff9900] mx-auto mb-5"></p>

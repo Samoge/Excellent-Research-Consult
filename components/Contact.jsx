@@ -13,11 +13,7 @@ function Contact() {
                 </h1>
 
                 <p className="max-w-xl mt-6">
-                  Our vision is to become the premier destination for people
-                  seeking connection, inspiration, and faith in a toxic world.
-                  We aim to scale our platform to reach 2 million users and
-                  create a global community of believers and seekers who are
-                  united in their pursuit of a brighter future.
+                Our vision at Excellent Research Consult is to be the leading research and consultancy company that empowers businesses and individuals to make informed decisions through data-driven insights. We strive to create a world where research and analysis are accessible to all, and where our clients can achieve their goals with confidence and clarity.
                 </p>
 
                 <button className="px-8 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-[#ff9900] rounded-md hover:bg-blue-400">
